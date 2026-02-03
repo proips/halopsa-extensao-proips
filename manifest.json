@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Halo - Abrir ticket selecionado (PROIPS)",
+  "version": "1.0",
+  "description": "Abre o número do ticket selecionado no HaloPSA",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
